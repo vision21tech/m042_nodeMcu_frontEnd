@@ -1,0 +1,84 @@
+@import "../../css/colors.css";
+
+.login {
+    padding: 1.2rem;
+}
+
+.input-item {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsla(225, 15%, 40%, 1);
+    border-width: 0px;
+    padding: 0 0.75rem;
+    /* border-style: solid; */
+    /* border-color: $ui-white; */
+}
+.input-item:focus {
+    outline: none;
+}
+
+.sign-group {
+    display: inline-flex;
+    padding: 1.2rem;
+}
+
+.signin-button {
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background: $ui-white;
+    color: $motion-primary;
+    cursor: pointer;
+    padding-left: 0.7rem;
+}
+.signin-button:focus {
+    outline: none;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-left: 4rem;
+    width: 4rem;
+    height: 2rem;
+    color: $ui-white;
+    cursor: pointer;
+    padding-left: 0.7rem;
+}
+.signup-button:focus {
+    outline: none;
+}
+
+.signup-button:hover {
+    display: flex;
+    float: right;
+    align-items: center;
+    /* margin-left: 4rem; */
+    width: 4rem;
+    height: 2rem;
+    color: $ui-white;
+    background-color: $motion-tertiary;
+    cursor: pointer;
+    padding-left: 0.7rem;
+}
+
+.sign-validation {
+    margin: auto;
+    padding: 0.5rem;
+    width: 12rem;
+    white-space: break-spaces;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: $ui-white;
+    border-width: 0px;
+    background-color: $error-primary;
+    
+}

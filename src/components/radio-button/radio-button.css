@@ -1,0 +1,11 @@
+.radio-button-group {
+    margin-top: 0.5rem;
+	display: flex;
+}
+
+.radio-button-item {
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0rem 0.5rem;
+}
