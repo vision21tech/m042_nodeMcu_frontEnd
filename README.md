@@ -780,3 +780,4 @@ MenuBar.defaultProps = {
 - 그 외에 필요없는 기능이나 UI는 M042와 상의후 결정
 - 추가할 블록은 M042 패드에 설치된 어플을 통해서 확인할 수 있습니다.
 - 앱을 사용할 때, 지금은 컴파일 서버와 웹 페이지 서버 주소만 맞춰주면 됩니다.
+- scratch-arduino-vm.zip, scratch-arduino-block.zip 을 해제한 후 node_modules에 사하고 실행하시면됩니다.
